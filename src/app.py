@@ -25,7 +25,10 @@ activities = {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
         "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
+        "participants": ["michael@mergington.edu", "daniel@mergington.edu"],
+        "announcements": [
+            "Friendly tournament this Friday; all experience levels are welcome."
+        ]
     },
     "Programming Class": {
         "description": "Learn programming fundamentals and build software projects",
@@ -55,7 +58,10 @@ activities = {
         "description": "Explore your creativity through painting and drawing",
         "schedule": "Thursdays, 3:30 PM - 5:00 PM",
         "max_participants": 15,
-        "participants": ["amelia@mergington.edu", "harper@mergington.edu"]
+        "participants": ["amelia@mergington.edu", "harper@mergington.edu"],
+        "announcements": [
+            "Bring a finished piece to the next meeting for the student showcase."
+        ]
     },
     "Drama Club": {
         "description": "Act, direct, and produce plays and performances",
@@ -73,7 +79,10 @@ activities = {
         "description": "Develop public speaking and argumentation skills",
         "schedule": "Fridays, 4:00 PM - 5:30 PM",
         "max_participants": 12,
-        "participants": ["charlotte@mergington.edu", "henry@mergington.edu"]
+        "participants": ["charlotte@mergington.edu", "henry@mergington.edu"],
+        "announcements": [
+            "Regional meet sign-ups close at the next team practice."
+        ]
     }
 }
 

@@ -37,11 +37,24 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>`
             : `<p><em>No participants yet</em></p>`;
 
+        const announcementsHTML =
+          Array.isArray(details.announcements) && details.announcements.length > 0
+            ? `<div class="announcements-section">
+                <h5>Latest update</h5>
+                <ul class="announcements-list">
+                  ${details.announcements
+                    .map((announcement) => `<li>${announcement}</li>`)
+                    .join("")}
+                </ul>
+              </div>`
+            : "";
+
         activityCard.innerHTML = `
           <h4>${name}</h4>
           <p>${details.description}</p>
           <p><strong>Schedule:</strong> ${details.schedule}</p>
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
+          ${announcementsHTML}
           <div class="participants-container">
             ${participantsHTML}
           </div>
